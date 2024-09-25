@@ -1,0 +1,281 @@
+body{
+
+    background-color:rgb(62, 61, 61);
+
+  
+}
+
+
+.color{
+    background: rgb(130, 96, 69);
+    position: absolute;
+    border-radius: 50%;
+    filter:blur(212px);
+    z-index: -9;
+    width: 500px;
+    height: 500px;
+}
+.navi{
+    
+    display: flex;
+    justify-content: space-between;
+
+    
+ 
+}
+
+.navi ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    align-items: center;
+    color: white;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.join{
+   
+    align-items: center;
+   
+}
+.navi button{
+   
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    margin-right: 40px;
+    
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 80;
+  
+
+}
+
+.logo{
+    margin-top: 10px;
+
+}
+.logo img{
+    width: 17rem;
+    height: 4rem;
+}
+
+.conte{
+    background-color:rgb(62, 61, 61)    ;
+    width: 400px;
+    height: 70px;
+    border-radius: 30px;
+    color: rgb(141, 141, 141);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    margin-left: 3%;
+    margin-top: 50px;
+    
+}
+.hea{
+    display: flex;
+    color: white;
+    gap: 50px;
+    font-size: 40px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    margin-left: 3%;
+    
+}
+.hea2{
+    display: flex;
+    color: white;
+    gap: 50px;
+  font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;  
+      font-size: 40px;
+    
+    margin-left: 3%;
+  
+    
+}
+.hea2 h1{
+    margin: 0;  
+}
+.hea h1{
+    margin-bottom: 3;
+}
+.hol{
+    color: transparent;
+    font-family:"Source Sans 3", sans-serif; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.para{
+    color: white;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto; 
+    margin-left: 3%;
+    font-size: 20px;
+}
+
+.but1 button{
+    color: white;
+    background-color: rgb(153, 114, 41);
+    width: 120px;
+    height: 40px;
+}
+.but2 button{
+    color: white;
+    background-color: transparent;
+    width: 120px;
+    height: 40px;
+    border-color: orange;   
+}
+
+.full{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1580px;
+}
+
+.but{
+    display: flex;
+    gap: 24px;
+  
+}
+
+.right img{
+    margin-right: 110px;
+    
+    width: 30rem;
+    height: 40rem;
+   
+}
+.left{
+    margin-left: 100px;
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .conte{
+        width: 150px;
+        height: 20px;
+        margin-left:-10px ;
+        margin-top: -20px;
+    }
+    .conte h3{
+        font-size: 8px;
+        margin-left: -22px;
+    }
+    .hol{
+        
+        margin-left: -30px;
+    }
+    .hea h1{
+        font-size: 30px;
+            
+    }
+    .ha{
+        margin-left: -28px;
+    }
+    .hea2{
+        font-size: 13px;
+        margin-left: -0px;
+        margin-top: -10px;
+
+    }
+    .hea4{
+        margin-left: -38px;
+    }
+    
+    .para{
+        margin-top: 30px;
+        margin-left: -40px;
+        font-size: 12px;
+        max-width: 250px;
+       
+    }
+    .but1{
+        margin-left: -30px;
+       
+
+    }
+    
+    .but2{
+        margin-left: -10px;
+
+    }
+    .full{
+        flex-direction: column;
+    }
+    .right{
+        position: relative;
+        margin-top: 30px;
+       
+
+    }
+    .logo img{
+        margin-top: 10px;
+        width: 8rem;
+        height: 2rem;
+    }
+    
+    .but1 button{
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    .but2 button{
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    .but{
+        margin-top: 20px;
+    }
+
+    .right img{
+        width: 180px;
+        height: 230px;
+        margin-left: 90px;
+    }
+    .join{
+        visibility: hidden;
+    }
+
+    .navi ul{
+        flex-direction: column;
+        background-color: black;
+        padding: 2rem;
+        position: fixed;
+       
+        margin-left: 220px;
+        z-index: 99;
+
+    }
+    body{
+        max-width: 768px;
+    }
+    
+    .color{
+        visibility: hidden;
+    }
+    .log22 img{
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+}
